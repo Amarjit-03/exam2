@@ -4,6 +4,7 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <>
+      Date: 12/9/2024
       <h1 style={{ textAlign: 'center'}} className="text-orange-500 text-2xl ml-5 my-5 text-5xl">Amar Tree Service Corporation</h1>
 <p className="text-normal ml-5 my-5 pb-8 text-stone-600 text-3xl">At Amar Tree Service Corp., we specialize in providing fast, reliable, and professional tree removal services to keep your property safe, beautiful, and functional. Whether you’re dealing with overgrown, hazardous trees or need space cleared for new construction, our team of certified experts is here to help. With years of experience in the industry, we guarantee efficient and thorough tree removal, stump grinding, and disposal, all while prioritizing safety and environmental responsibility. Trust Amar Tree Removal Corporation to handle your tree removal needs with precision and care, ensuring your property looks its best!</p>
 
