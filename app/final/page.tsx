@@ -9,27 +9,29 @@ export default function Page() {
 
         <label htmlFor="cars" className="mx-5">Choose a car:</label>
 
-<select name="cars" id="cars">
+<select name="cars" id="cars" className="ml-5" >
   <option value="volvo">Volvo</option>
   <option value="saab">Saab</option>
   <option value="mercedes">Mercedes</option>
   <option value="audi">Audi</option>
 </select>
 
-<br />
-
-<div className="auto">
-<input type="radio" id="html" name="fav_language" value="HTML" />
-<label htmlFor="html">HTML</label><br />
-<input type="radio" id="css" name="fav_language" value="CSS" />
-<label htmlFor="css">CSS</label><br />
-<input type="radio" id="javascript" name="fav_language" value="JavaScript" />
-<label htmlFor="javascript">JavaScript</label>
-</div>
 
 <br />
 
-<div className="lol">
+<div className="ml-5 mt-5">
+        <input type="radio" id="html" name="fav_language" value="HTML" />
+        <label htmlFor="html">HTML</label><br />
+        <input type="radio" id="css" name="fav_language" value="CSS" />
+        <label htmlFor="css">CSS</label><br />
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript" />
+        <label htmlFor="javascript">JavaScript</label>
+        </div>
+
+
+<br />
+
+<div className="ml-5 mt-5">
 <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
 <label htmlFor="vehicle1"> I have a bike</label><br />
 <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" />
