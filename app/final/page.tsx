@@ -3,11 +3,11 @@ export default function Page() {
     <>  
     <h1 className="ml-5 text-3xl">Final Exam</h1>
     <form>
-        <label htmlFor="product" className="ml-5">Service Selection</label>
+        <label htmlFor="product" className="ml-5 text-2xl">Service Selection</label>
         <input type="text" name="product" id="product" className="m-5 text-black bg-green-500" />
         <br />
 
-        <label htmlFor="service" className="mx-5">Choose a Service</label>
+        <label htmlFor="service" className="underline text-teal-900 decoration-wavy mx-5 text-2xl">Choose a Service</label>
 
 <select name="services" id="services" className="ml-5" >
   <option value="stump">Tree Removal and Stump Grinding</option>
@@ -21,6 +21,8 @@ export default function Page() {
 
 <br />
 
+<h1 className="underline font-bold text-blue-600 text-2xl ml-5 mt-5">Tabs</h1>
+
 <div className="ml-5 mt-5">
         <input type="radio" id="about" name="fav_language" value="About" />
         <label htmlFor="About">About</label><br />
@@ -32,6 +34,8 @@ export default function Page() {
 
 
 <br />
+
+<h1 className="underline font-bold text-red-600 text-2xl ml-5 mt-5">What Service You have?</h1>
 
 <div className="ml-5 mt-5">
 <input type="checkbox" id="service1" name="service1" value="Tree" />
