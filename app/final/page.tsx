@@ -3,41 +3,43 @@ export default function Page() {
     <>  
     <h1 className="ml-5 text-3xl">Final Exam</h1>
     <form>
-        <label htmlFor="product" className="ml-5">Product Description</label>
-        <input type="text" name="product" id="product" className="m-5 text-black bg-red-400" />
+        <label htmlFor="product" className="ml-5">Service Selection</label>
+        <input type="text" name="product" id="product" className="m-5 text-black bg-green-500" />
         <br />
 
-        <label htmlFor="cars" className="mx-5">Choose a car:</label>
+        <label htmlFor="service" className="mx-5">Choose a Service</label>
 
-<select name="cars" id="cars" className="ml-5" >
-  <option value="volvo">Volvo</option>
-  <option value="saab">Saab</option>
-  <option value="mercedes">Mercedes</option>
-  <option value="audi">Audi</option>
+<select name="services" id="services" className="ml-5" >
+  <option value="stump">Tree Removal and Stump Grinding</option>
+  <option value="pruning">Tree Pruning and Trimming</option>
+  <option value="emergency">Emergency Tree Services</option>
+  <option value="clearing">Land Clearing and Lot Preparation</option>
+  <option value="health">Tree Health and Disease Management</option>
+  <option value="municipal">Commercial and Municipal Services</option>
 </select>
 
 
 <br />
 
 <div className="ml-5 mt-5">
-        <input type="radio" id="html" name="fav_language" value="HTML" />
-        <label htmlFor="html">HTML</label><br />
-        <input type="radio" id="css" name="fav_language" value="CSS" />
-        <label htmlFor="css">CSS</label><br />
-        <input type="radio" id="javascript" name="fav_language" value="JavaScript" />
-        <label htmlFor="javascript">JavaScript</label>
+        <input type="radio" id="about" name="fav_language" value="About" />
+        <label htmlFor="About">About</label><br />
+        <input type="radio" id="contact" name="fav_language" value="Contact" />
+        <label htmlFor="Contact">Contact</label><br />
+        <input type="radio" id="team" name="fav_language" value="Team" />
+        <label htmlFor="Team">Team</label>
         </div>
 
 
 <br />
 
 <div className="ml-5 mt-5">
-<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
-<label htmlFor="vehicle1"> I have a bike</label><br />
-<input type="checkbox" id="vehicle2" name="vehicle2" value="Car" />
-<label htmlFor="vehicle2"> I have a car</label><br />
-<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat" />
-<label htmlFor="vehicle3"> I have a boat</label><br></br>
+<input type="checkbox" id="service1" name="service1" value="Tree" />
+<label htmlFor="service1"> I have a Tree</label><br />
+<input type="checkbox" id="service2" name="service2" value="Stump" />
+<label htmlFor="service2"> I have a Stump</label><br />
+<input type="checkbox" id="service3" name="service3" value="Emergency" />
+<label htmlFor="service3"> I have a Emergency</label><br></br>
 </div>
 
 
